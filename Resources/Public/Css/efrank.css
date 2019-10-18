@@ -1,0 +1,25 @@
+/* Changes applied to the logo */
+.navbar-mainnavigation .navbar-brand-image img {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: auto;
+    max-height: 65px;
+}
+
+.navbar-mainnavigation {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    padding: 0;
+}
+
+H1 {
+    font-weight:800;
+}
+
+H2, H4, H5 {
+    font-weight:600;
+}
+
+H4 {
+    margin-top:1.5em;
+}

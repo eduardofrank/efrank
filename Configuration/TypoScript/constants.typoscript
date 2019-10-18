@@ -1,0 +1,60 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:efrank/Resources/Public/Images/logo.svg
+        fileInverted = EXT:efrank/Resources/Public/Images/logo-inverted.svg
+        height = 100
+        width = 100
+        alt = efrank
+        linktitle = efrank
+    }
+    favicon {
+        file = EXT:efrank/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:efrank/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:efrank/Resources/Private/Partials/Page/
+        templateRootPath = EXT:efrank/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:efrank/Resources/Private/Layouts/
+        partialRootPath = EXT:efrank/Resources/Private/Partials/
+        templateRootPath = EXT:efrank/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:efrank/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:efrank/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:efrank/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}

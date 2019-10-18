@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-05-18UTC01:51:480">
+        <header>
+            <authorName>Eduardo Frank</authorName>
+            <authorEmail>edfrank@gmail.com</authorEmail>
+        </header>
+        <body>
+             <trans-unit id="contacto.element.text-1.properties.label" xml:space="preserve">
+                  <source>First Name</source>
+             </trans-unit>
+             <trans-unit id="contacto.element.text-2.properties.label" xml:space="preserve">
+                    <source>Last Name</source>
+             </trans-unit>
+             <trans-unit id="contacto.element.email-1.properties.label" xml:space="preserve">
+                    <source>e-mail</source>
+             </trans-unit>
+             <trans-unit id="contacto.element.text-3.properties.label" xml:space="preserve">
+                    <source>Subject</source>
+             </trans-unit>
+             <trans-unit id="contacto.element.textarea-1.properties.label" xml:space="preserve">
+                    <source>Message</source>
+             </trans-unit>
+             <trans-unit id="element.contacto.renderingOptions.submitButtonLabel" xml:space="preserve">
+                  <source>Submit</source>
+             </trans-unit>
+             <trans-unit id="contacto.finisher.EmailToReceiver.subject" xml:space="preserve">
+                  <source>Message from the web.</source>
+             </trans-unit>
+             <trans-unit id="contacto.element.statictext-1.properties.text" xml:space="preserve">
+                  <source>* Mandatory field</source>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>
