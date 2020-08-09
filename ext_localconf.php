@@ -4,7 +4,7 @@ defined('TYPO3_MODE') || die();
 /***************
  * Add default RTE configuration
  */
-$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['efrank'] = 'EXT:efrank/Configuration/RTE/Default.yaml';
+$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['efrank'] = 'EXT:efrank/Configuration/RTE/MyFull.yaml';
 
 /***************
  * PageTS

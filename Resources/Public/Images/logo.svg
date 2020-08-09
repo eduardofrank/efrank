@@ -5,14 +5,14 @@
 <style type="text/css">
 	.st0{display:none;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st2{fill:#3399FF;}
+	.st2{fill:#006699;}
 	.st3{fill:#FFFFFF;}
 </style>
 <g id="template" class="st0">
 </g>
 <g id="diedro">
 	<line class="st1" x1="46" y1="87.9" x2="46" y2="71.3"/>
-	<path class="st2" d="M49.7,23.9c0,0,18.4-15.3,24.6-20.5S85.1,4.1,85.1,7V69L49.7,98.6l-35.2-30c0,0,0-53.6,0-59.6
+	<path class="st2" d="M49.7,23.9c0,0,18.4-15.3,24.6-20.5S85.1,4.1,85.1,7v62L49.7,98.6l-35.2-30c0,0,0-53.6,0-59.6
 		c0-8.5,7.9-8.7,10.6-6C28,5.9,49.7,23.9,49.7,23.9z"/>
 </g>
 <g id="letras">

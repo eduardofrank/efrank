@@ -24,8 +24,108 @@ H4 {
     margin-top:1.5em;
 }
 
+code {
+    font-size: 85%;
+    color: #4a494a;
+    word-wrap: break-word;
+    padding: 2px 3px 1px;
+    border: 1px solid #dad9da;
+    border-radius: 3px;
+    background-color:#f6f6f6;
+}
 
+@media (max-width:991.9px) {
+    .carousel-item-type-call_to_action .carousel-box {
+    max-width: 100%;
+    background-color:#00f39d;
+    color:#000000;
+}
+}
 
+@media (min-width: 992px) {
+    .carousel-item-type-call_to_action .carousel-box {
+    max-width: 50%;
+    background-color:#00f39d;
+    color:#000000;
+}
+}
+
+#p16 .breadcrumb-section .breadcrumb {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+/* Blog */
+.blogicon {
+    display:none;
+}
+
+.postmetagroup__body {
+    margin: 0;
+}
+
+.postlist__post {
+    height:415px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-size:smaller;
+    margin-top: auto;
+    justify-content:flex-end;  
+}
+
+.postmetagroup__item {
+    margin:0;
+    padding:0;
+    width:auto;
+}
+
+.postlist__posttitle {
+    margin:0 0 .4rem 0;
+    padding:0;
+}
+
+.postlist__postdescription {
+    margin-top:-.4rem;
+}
+
+time {
+    font-size:.75rem;
+    color:#3b3b3b;
+}
+
+.postmetagroup__item--published {
+    margin:0;
+    padding:0;
+}
+
+@media (min-width: 768px) {
+.postlist--recent {
+    display:flex;
+    justify-content:space-between;  
+}
+.postlist__post {
+    display:flex;
+    width:32%;
+    margin:0;
+    flex-direction: column;
+}
+}
+
+/*#c58 .gallery-item img, .gallery-item picture {
+    width: auto;
+    height: auto;
+}*/
+
+.gallery-item img, .gallery-item picture {
+    width: auto;
+    height: auto;
+}
 
 /* sticky footer */
 body, .body-bg {
@@ -35,7 +135,7 @@ body, .body-bg {
   margin:0;
   padding:0;
   background-color:#fff;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #page-footer {
@@ -47,6 +147,18 @@ body, .body-bg {
     text-align: center;
     opacity: 0.8;
     vertical-align: middle;
-    color: #fff;
+    color: #0d6296;
 }
 
+.footer-section-meta {
+    color: #0d6296;
+    background-color: #073252;
+}
+
+.footer-language .active a {
+    color: #3399ff;
+}
+
+.footer-section-meta a:not(.btn):hover {
+    color: #3399ff;
+}

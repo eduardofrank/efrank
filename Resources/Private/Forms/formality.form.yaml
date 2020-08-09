@@ -2,8 +2,8 @@
 renderingOptions:
   submitButtonLabel: Enviar
 type: Form
-identifier: contacto
-label: contacto
+identifier: formality
+label: formality
 prototypeName: standard
 finishers:
   -
