@@ -1,0 +1,7 @@
+#
+# PageTS for efrank
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:efrank/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:efrank/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:efrank/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:efrank/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
